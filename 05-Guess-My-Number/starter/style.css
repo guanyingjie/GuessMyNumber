@@ -13,8 +13,8 @@ html {
 
 body {
   font-family: 'Press Start 2P', sans-serif;
-  color: #eee;
-  background-color: #222;
+  color: aquamarine;
+  background-color: cornflowerblue;
   /* background-color: #60b347; */
 }
 
@@ -89,12 +89,16 @@ h1 {
   color: inherit;
   font-size: 5rem;
   padding: 2.5rem;
-  width: 25rem;
+  width: 65rem;
   text-align: center;
   display: block;
   margin-bottom: 3rem;
 }
 
+input::placeholder {
+  color: #eee;
+  font-size: 0.1rem;
+}
 .btn {
   border: none;
   background-color: #eee;
